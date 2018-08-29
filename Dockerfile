@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apt-get update && apt-get install -y sshpass rsync
+RUN apk add sshpass rsync
