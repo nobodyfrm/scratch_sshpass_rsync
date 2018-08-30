@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apk add sshpass rsync
+RUN apk add openssh-client sshpass rsync
